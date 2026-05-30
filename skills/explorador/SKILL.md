@@ -94,6 +94,10 @@ Sugerí la skill específica:
 - Si es lúdico → `/juego-interactivo`.
 - Si es una colección curada → `/agregador-curado`.
 
+**Skills de soporte (no construyen, ayudan):**
+- Si quiere aprender a hablarle bien a Claude → `/guia-de-prompts`.
+- Si tiene una duda puntual que lo bloquea → `/dudas-frecuentes`.
+
 ### Paso 6 · Próximos pasos
 
 Cerrá con instrucciones claras:
