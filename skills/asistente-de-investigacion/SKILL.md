@@ -40,7 +40,7 @@ Acá hay cuatro patrones típicos:
 Carga textos, marca fragmentos con códigos temáticos, exporta el análisis. Para análisis de discurso, entrevistas, etnografía.
 
 **B · Comparador de textos**
-Dos o más textos en paralelo, identificación de diferencias, anotaciones. Para traducciones, versiones, comparación de fuentes.
+Dos o más textos en paralelo, identificación de diferencias, anotaciones. Para traducciones, versiones, comparación de fuentes, cotejo de documentos históricos, análisis de variantes textuales.
 
 **C · Gestor de corpus**
 Buscador sobre un conjunto de documentos, filtros por metadata, exportación de citas. Para bibliografía, archivo de investigación, conjuntos de papers.
@@ -106,6 +106,40 @@ Estas herramientas son para uso profesional sostenido. Estética sugerida:
 - Vista paralela con scroll sincronizado.
 - Marcado de diferencias automático o manual.
 - Anotaciones por fragmento.
+- Exportación de análisis comparativo.
+
+### Detalle: Comparador de textos para traducción
+
+Si el alumno trabaja con **traducciones** (como cotejo de versiones de un mismo texto en distintos idiomas o épocas), la herramienta necesita funcionalidades específicas:
+
+**Estructura sugerida**:
+```
++------------------------+------------------------+
+|  TEXTO ORIGINAL        |  TRADUCCIÓN            |
+|  [Cargar archivo]      |  [Cargar archivo]      |
++------------------------+------------------------+
+|  Párrafo 1 original    |  Párrafo 1 traducido   |
+|  [Seleccionar]         |  [Seleccionar]         |
++------------------------+------------------------+
+|  Párrafo 2 original    |  Párrafo 2 traducido   |
+|  ...                   |  ...                   |
++------------------------+------------------------+
+|  NOTAS DE COTEJO                               |
+|  [Fragmento seleccionado] → [Nota/código]      |
++------------------------------------------------+
+```
+
+**Funcionalidades clave**:
+1. **Alineación por párrafos o segmentos**: que el scroll de un lado mueva el otro.
+2. **Selección y vinculación**: seleccionar un fragmento del original y vincularlo con su equivalente en la traducción.
+3. **Códigos de operación traductológica**: omisión, adición, modulación, transposición, etc. (según el marco teórico del alumno).
+4. **Notas por par de fragmentos**: observaciones sobre decisiones de traducción.
+5. **Exportación estructurada**: tabla con original, traducción, código, nota.
+
+**Para corpus de traducciones ruso-español** (u otros pares de lenguas):
+- Considerar que los alfabetos pueden ser distintos (cirílico/latino).
+- Usar fuentes que soporten ambos sistemas.
+- El cotejo puede ser a nivel de palabra, frase u oración según el análisis.
 
 **Si es gestor de corpus**:
 - Búsqueda full-text sobre los documentos.

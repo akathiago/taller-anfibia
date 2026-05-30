@@ -17,6 +17,9 @@ El alumno tiene una tarea repetitiva o tediosa de su trabajo y quiere convertirl
 - Una periodista que quiere un sistema para gestionar entrevistas.
 - Una sociologa parlamentaria que quiere un asistente para redactar gacetillas.
 - Una marketinera que quiere automatizar reportes para clientes.
+- Un profesor que quiere generar consignas o rúbricas de evaluación.
+- Una coordinadora académica que quiere automatizar comunicaciones a estudiantes.
+- Un docente investigador que quiere una herramienta para planificar clases.
 
 ## Cómo trabajar con el alumno
 
@@ -49,6 +52,35 @@ Una página con un input grande donde el alumno escribe contexto, la herramienta
 Una página con campos completables que generan un documento final. Ideal para: contratos tipo, propuestas comerciales, presentaciones recurrentes.
 
 Recomendá una. Explicá por qué. Confirmá con el alumno.
+
+### Ejemplos específicos para docentes
+
+Si el alumno es docente, las tareas repetitivas más comunes son:
+
+**Generador de informes de alumnos**
+- Input: nombre del alumno, materia, período, notas, observaciones.
+- Output: informe formateado listo para copiar o imprimir.
+- Usar Opción A (formulario + generador).
+
+**Generador de consignas o actividades**
+- Input: tema, nivel, tipo de actividad (individual/grupal), duración.
+- Output: consigna completa con objetivos, desarrollo y criterios.
+- Usar Opción A o D.
+
+**Planificador de clases**
+- Input: contenido, duración, recursos disponibles.
+- Output: plan de clase estructurado (inicio, desarrollo, cierre, materiales).
+- Usar Opción D (plantilla).
+
+**Generador de rúbricas de evaluación**
+- Input: criterios a evaluar, niveles de logro.
+- Output: tabla de rúbrica lista para usar.
+- Usar Opción A.
+
+**Comunicador a estudiantes/familias**
+- Input: tipo de comunicación, datos del destinatario, contenido.
+- Output: mensaje formateado listo para enviar.
+- Usar Opción A.
 
 ### Paso 3 · Cuidados éticos y de privacidad
 

@@ -2,7 +2,7 @@
 
 > Skills personalizadas de Claude Code para el taller dictado por Thiago Donato en Anfibia Escuela.
 
-Once skills que te ayudan a construir cosas con Claude Code: un sitio personal, un dashboard, una pieza editorial, un mini-juego, una herramienta de trabajo, lo que necesites. Cada skill te guía paso a paso, te hace las preguntas correctas y te empuja a tomar decisiones autorales.
+Dieciséis skills que te ayudan a construir cosas con Claude Code: un sitio personal, un dashboard, una pieza editorial, un mini-juego, una herramienta de trabajo, una tienda simple, un sistema de gestión, lo que necesites. Cada skill te guía paso a paso, te hace las preguntas correctas y te empuja a tomar decisiones autorales.
 
 ---
 
@@ -81,6 +81,23 @@ Un mini-juego web. Trivia, memotest, generador, plataformero simple.
 **`/agregador-curado`**
 Un sitio que reúne contenido externo con tu mirada autoral.
 
+**`/tienda-simple`**
+Una tienda online básica. Catálogo, carrito, pedido por WhatsApp. Sin pagos integrados.
+
+**`/mini-sistema-de-gestion`**
+Un sistema de gestión simple. CRUD, estados, filtros. Para inventarios, pedidos, listas.
+
+**`/agente-conversacional`**
+Un chatbot temático con respuestas pre-armadas. FAQ interactivo con personalidad.
+
+**`/conector-de-datos`**
+Herramienta para transformar datos entre formatos. Limpiar CSVs, preparar para PowerBI.
+
+### Para cuando algo falla
+
+**`/rescate`**
+El paramédico del taller. Diagnóstico y resolución de problemas comunes.
+
 ---
 
 ## El flujo recomendado del taller
@@ -130,7 +147,12 @@ taller-anfibia/
     ├── pieza-editorial/SKILL.md
     ├── pieza-experimental/SKILL.md
     ├── juego-interactivo/SKILL.md
-    └── agregador-curado/SKILL.md
+    ├── agregador-curado/SKILL.md
+    ├── tienda-simple/SKILL.md
+    ├── mini-sistema-de-gestion/SKILL.md
+    ├── agente-conversacional/SKILL.md
+    ├── conector-de-datos/SKILL.md
+    └── rescate/SKILL.md
 ```
 
 Cada skill vive en su propia carpeta con un archivo `SKILL.md` adentro. Es el formato estándar que requiere Claude Code.
@@ -175,7 +197,7 @@ Es lo que enseñamos en el taller. Es lo que rinde para piezas chicas a medianas
 
 ## Origen
 
-Estas skills fueron diseñadas mirando el formulario de inscripción real del taller, con 47 respuestas. Los patrones encontrados se agruparon en 11 caminos posibles, intentando cubrir a todo el grupo sin caer en hacer una skill por persona.
+Estas skills fueron diseñadas mirando el formulario de inscripción real del taller. Los patrones encontrados se agruparon en 16 caminos posibles, intentando cubrir a todo el grupo sin caer en hacer una skill por persona.
 
 No son skills genéricas: son específicas para este grupo, este contexto y este momento. Pero pueden servirle a cualquier persona que esté arrancando con Claude Code.
 

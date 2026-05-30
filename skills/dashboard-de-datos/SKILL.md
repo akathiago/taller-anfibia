@@ -17,6 +17,9 @@ El alumno tiene datos (un CSV, un Excel, datos que recibe periódicamente) y qui
 - Una politóloga que quiere agregar resultados de encuestas de opinión.
 - Una marketinera que quiere automatizar reportes para clientes.
 - Una coordinadora universitaria que quiere visualizar datos de donaciones.
+- Una encargada de logística que quiere ver el estado de los pedidos y entregas.
+- Un comerciante que quiere visualizar ventas por producto, categoría o período.
+- Una gestora de inventario que quiere ver niveles de stock y alertas de reposición.
 
 ## Cómo trabajar con el alumno
 
@@ -42,8 +45,34 @@ Para cada pregunta que el alumno le hace a los datos, hay una visualización ade
 - **"Comparar entre grupos"** → barras agrupadas.
 - **"Relación entre dos variables"** → scatter plot.
 - **"Ver registros individuales"** → tabla filtrable y buscable.
+- **"Qué productos están por debajo del mínimo"** → tabla con alertas de color (rojo = bajo stock).
+- **"Estado de pedidos/tareas"** → tarjetas o kanban visual (pendiente, en proceso, completado).
+- **"Resumen de inventario"** → KPIs grandes (total items, valor total, productos agotados).
 
 Proponé 3-5 visualizaciones máximo. Más de eso es ruido.
+
+### Ejemplos específicos para inventario y gestión
+
+Si el alumno maneja **stock o inventario**, las preguntas típicas son:
+- ¿Cuántas unidades tengo de cada producto?
+- ¿Qué productos están por debajo del mínimo?
+- ¿Cuál es el valor total del inventario?
+- ¿Qué categoría tiene más productos?
+
+Visualizaciones sugeridas:
+1. **KPIs arriba**: total de productos, unidades totales, valor total, productos con stock bajo.
+2. **Tabla principal**: filtrable por categoría, ordenable por stock, con alertas visuales.
+3. **Gráfico de barras**: productos con menor stock (top 10).
+
+Si el alumno maneja **pedidos o seguimiento**, las preguntas típicas son:
+- ¿Cuántos pedidos tengo pendientes?
+- ¿Cuál es el monto total de los pedidos del mes?
+- ¿Qué clientes tienen pedidos abiertos?
+
+Visualizaciones sugeridas:
+1. **KPIs arriba**: pedidos pendientes, pedidos completados hoy, monto total.
+2. **Vista kanban o tabla con estados**: columnas por estado (pendiente → en proceso → entregado).
+3. **Gráfico de línea**: evolución de pedidos por día/semana.
 
 ### Paso 3 · Decidir filtros e interactividad
 
