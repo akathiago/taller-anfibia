@@ -87,6 +87,7 @@ Una vez que elige, validá la elección:
 Sugerí la skill específica:
 
 - Si eligió camino profesional → `/herramienta-de-trabajo` o `/dashboard-de-datos`.
+- Si es abogado/a o trabaja en derecho → `/asistente-legal`.
 - Si eligió tema personal autoral → `/pieza-editorial` o `/pieza-experimental`.
 - Si eligió un sitio para algo o alguien → `/sitio-personal` o `/landing-de-proyecto`.
 - Si involucra datos y análisis → `/dashboard-de-datos` o `/asistente-de-investigacion`.
